@@ -115,7 +115,7 @@
             "scripts": [
 
                 "{{template_dir}}/scripts/installers/google-chrome.sh",
-                "{{template_dir}}/scripts/installers/java-tools.sh",
+                "{{template_dir}}/scripts/installers/java-tools.sh"
             ],
             "environment_vars": [
                 "METADATA_FILE={{user `metadata_file`}}",
