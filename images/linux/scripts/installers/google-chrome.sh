@@ -37,6 +37,7 @@ LATEST_CHROMEDRIVER_VERSION=$(curl "https://chromedriver.storage.googleapis.com/
 echo "Downloading chromedriver v$LATEST_CHROMEDRIVER_VERSION..."
 wget "https://chromedriver.storage.googleapis.com/$LATEST_CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
 apt-get install -y unzip
+apt-get install -y jq
 unzip chromedriver_linux64.zip
 rm chromedriver_linux64.zip
 
