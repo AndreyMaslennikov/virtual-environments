@@ -136,9 +136,7 @@
         {
             "type": "shell",
             "scripts":[
-                "{{template_dir}}/scripts/installers/1604/hosted-tool-cache.sh",
                 "{{template_dir}}/scripts/installers/python.sh",
-                "{{template_dir}}/scripts/installers/test-toolcache.sh"
             ],
             "environment_vars": [
                 "METADATA_FILE={{user `metadata_file`}}",
